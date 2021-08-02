@@ -1,0 +1,15 @@
+if :Next==1 then goto 2 else if :Back==1 then goto 10 end end goto 1
+:CurrentMaterial = :CurrentMaterial + 1
+:Material = "\n" + :MaterialName
+:Amount = "\n" + :MaterialAmount
+goto 1
+
+
+
+
+:CurrentMaterial = :CurrentMaterial - 1
+:Material = "\n" + :MaterialName
+:Amount = "\n" + :MaterialAmount
+goto 1
+
+// TurSoftware AASS Automatic Asteroid Survey System \\
